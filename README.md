@@ -22,7 +22,9 @@ PRs welcome.
 ## Learn
 
 - https://rust-tutorials.github.io/learn-wgpu
-- https://github.com/sotrh/learn-wgpu
+  - https://github.com/rust-tutorials/learn-wgpu
+- https://sotrh.github.io/learn-wgpu/
+  - https://github.com/sotrh/learn-wgpu
 - old https://github.com/fredlangva/WGPU-Tut
 - https://www.reddit.com/r/rust_gamedev/comments/bcjdl0/learning_wgpurs_coming_from_openwebgl/
 - [3D Game in Rust #2 - Try to run a wgpu-rs tutorial - YouTube](https://www.youtube.com/watch?v=KZTmTbcA-VY)
