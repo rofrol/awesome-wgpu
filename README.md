@@ -16,7 +16,7 @@ PRs welcome.
 - https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019
 - wgpu-rs and WebGL https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcipapq/
 - wgpu-rs and OpenGL https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcj2hyq/
-- Geometry shaders are effectively a dead https://www.reddit.com/r/rust/comments/dou249/will_wgpu_support_shader_types_that_are_not/f5r1a6k/
+- Geometry shaders are effectively a dead end https://www.reddit.com/r/rust/comments/dou249/will_wgpu_support_shader_types_that_are_not/f5r1a6k/
 - https://www.reddit.com/r/rust_gamedev/comments/b01zy9/please_help_me_understand_the_gfxrs_architecture/
 
 ## Learn
