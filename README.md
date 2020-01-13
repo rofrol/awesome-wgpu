@@ -63,6 +63,8 @@ PRs welcome.
   - via https://news.ycombinator.com/item?id=22024916
   - The flexibility in Legion is filled with tradeoffs, generally showing benefits in performance and runtime flexibility, while generally trading off some of the ergonomics of the SPECS interface. https://github.com/amethyst/rfcs/issues/22
 - https://iolivia.me/posts/entity-component-system-explained/
+- https://github.com/rukai/winit_input_helper
+  - used by pixels and others https://crates.io/crates/winit_input_helper/reverse_dependencies
 
 ## General gamedev
 
