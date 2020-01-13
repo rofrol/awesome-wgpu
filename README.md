@@ -46,11 +46,37 @@ PRs welcome.
 - 2D rendering library https://github.com/tonis2/felin
 - 2D graphics library https://github.com/cloudhead/rgx used by https://github.com/cloudhead/rx
 
+## Rust gamedev
+
+- https://github.com/rust-unofficial/awesome-rust/blob/master/README.md#game-development
+- https://www.reddit.com/r/rust_gamedev
+- Lack of allocator support in std is a big issue for gamedev. https://www.reddit.com/r/rust/comments/cr5rht/whats_the_state_of_game_development_in_rust/ex3g6e9/
+- Game Input Library for Rust https://github.com/Arvamer/gilrs
+  - Used by https://github.com/parasyte/pixels
+- [How to make roguelike games in Rust](http://bfnightly.bracketproductions.com/rustbook/)
+  - https://news.ycombinator.com/item?id=22020229
+- Ultraviolet (linear algebra library specifically for games & graphics which is faster than the alternatives for both runtime and compile times) https://crates.io/crates/ultraviolet
+  - via https://news.ycombinator.com/item?id=22024916
+- experimental const generics based linear algebra library that works without any allocations in no_std and utilizes simd. So now you can do fancy maths on embedded. https://djugei.github.io/optimath-0-3-0/
+  - https://www.reddit.com/r/rust/comments/eo4ury/show_rrust_optimath_linear_algebra_with_const/
+- High performance Rust ECS library https://crates.io/crates/legion
+  - via https://news.ycombinator.com/item?id=22024916
+  - The flexibility in Legion is filled with tradeoffs, generally showing benefits in performance and runtime flexibility, while generally trading off some of the ergonomics of the SPECS interface. https://github.com/amethyst/rfcs/issues/22
+- https://iolivia.me/posts/entity-component-system-explained/
+
+## General gamedev
+
+- https://gafferongames.com/post/fix_your_timestep/
+  - via https://github.com/17cupsofcoffee/tetra
+- https://gafferongames.com/post/integration_basics/
+- https://www.reddit.com/r/gamedev/comments/df7dth/i_compiled_a_massive_list_of_yt_channels_about/
+
 ## Games
 
 - https://github.com/rukai/canon_collision
 - https://github.com/kvark/vange-rs
   - https://kvark.github.io/vange-rs/
+  - In a nutshell, it's Metal with Vulkan's binding model https://www.reddit.com/r/rust_gamedev/comments/bcjdl0/learning_wgpurs_coming_from_openwebgl/ektqwx3/
 - https://github.com/Technici4n/voxel-rs
 - 2D, space invaders clone https://github.com/parasyte/pixels/tree/master/examples/invaders
 - 2D, game of life https://github.com/parasyte/pixels/tree/master/examples/conway
