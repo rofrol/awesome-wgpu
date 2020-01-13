@@ -45,6 +45,8 @@ PRs welcome.
 - https://github.com/lavignes/dth
 - 2D rendering library https://github.com/tonis2/felin
 - 2D graphics library https://github.com/cloudhead/rgx used by https://github.com/cloudhead/rx
+- https://github.com/StarlitGhost/GBOxide
+- A brawl file parser for Super Smash Bros. Brawl https://github.com/rukai/brawllib_rs
 
 ## Rust gamedev
 
