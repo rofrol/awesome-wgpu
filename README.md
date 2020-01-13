@@ -97,6 +97,8 @@ PRs welcome.
 - https://github.com/cbrewster/brewcode
 - https://github.com/Elyhaka/Swaynimated
 - https://github.com/CryZe/livesplit-one-desktop
+- HDR image viewer https://github.com/mandeep/viewimg
+  - Radiance HDR images (and later OpenEXR)
 
 ## Examples
 
