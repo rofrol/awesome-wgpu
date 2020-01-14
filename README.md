@@ -29,7 +29,6 @@ PRs welcome.
 
 ## Gamedev
 
-- An opinionated 2D game engine https://github.com/hecrj/coffee
 - A tiny hardware-accelerated pixel frame buffer https://github.com/parasyte/pixels
   - Answer why RedrawRequested event is not implemented https://github.com/rukai/winit_input_helper/issues/3#issuecomment-545316276
   - https://github.com/JamesPatrickGill/mos-6502-rusted
@@ -47,6 +46,8 @@ PRs welcome.
 - 2D graphics library https://github.com/cloudhead/rgx used by https://github.com/cloudhead/rx
 - https://github.com/StarlitGhost/GBOxide
 - A brawl file parser for Super Smash Bros. Brawl https://github.com/rukai/brawllib_rs
+- An opinionated 2D game engine https://github.com/hecrj/coffee
+  - based on old wgpu 0.2
 
 ## Rust gamedev
 
@@ -67,6 +68,10 @@ PRs welcome.
 - https://iolivia.me/posts/entity-component-system-explained/
 - https://github.com/rukai/winit_input_helper
   - used by pixels and others https://crates.io/crates/winit_input_helper/reverse_dependencies
+- experimental Rust library for continuous 2D collision detection in games https://github.com/SergiusIW/collider-rs
+  - https://github.com/SergiusIW/chirperjax
+- development library tailored to 2D pixel-art games. Supports SDL2 or WebAssembly https://github.com/SergiusIW/gate
+  - https://github.com/SergiusIW/chirperjax
 
 ## General gamedev
 
@@ -74,6 +79,13 @@ PRs welcome.
   - via https://github.com/17cupsofcoffee/tetra
 - https://gafferongames.com/post/integration_basics/
 - https://www.reddit.com/r/gamedev/comments/df7dth/i_compiled_a_massive_list_of_yt_channels_about/
+
+## Physics/Collision
+
+- http://arewegameyet.com/categories/physics/
+- https://github.com/kvark/vange-rs/blob/master/bin/road/physics/mod.rs
+- https://github.com/kvark/vange-rs/blob/master/src/render/collision.rs
+- https://github.com/rukai/canon_collision/blob/master/canon_collision/src/collision.rs
 
 ## Games
 
@@ -88,6 +100,7 @@ PRs welcome.
 - https://github.com/derekdreery/rogue
 - https://github.com/Limvot/vulkemon
 - https://github.com/glalonde/spout/tree/master/rust
+- https://github.com/Limvot/vulkemon
 
 ## Applications
 
@@ -114,6 +127,7 @@ PRs welcome.
 - https://github.com/maroider/wgpu_playground
 - https://github.com/terrence2/stampede
 - https://github.com/Lonsdaleiter/RustTest
+- iOS and Metal https://github.com/grenlight/idroid_demo
 
 ### Older
 
@@ -153,6 +167,10 @@ About Rendy and wgpu https://community.amethyst.rs/t/skepticism-about-rendy/1221
 >Switching to rendy nearly killed this project due to the time and effort required https://community.amethyst.rs/t/skepticism-about-rendy/1221/11
 
 >This duality of APIs in gfx-hal worked to an extent. Providing safety was impossible without imposing some restrictions or overhead. In the command pool example, it’s only safe to re-use a command buffer if it’s done execution on the GPU, and the user doesn’t intent to use it. We can’t possibly know this in gfx-hal without introducing overhead… So, at the end of the day, we decided that the “typed” (user-facing) layer is still useful, it doesn’t have to be a part of gfx-hal. Thus, we removed it, recommending rendy-command as a replacement. This slimmed up gfx-hal API surface and allowed us to straighten up the terminology (no more “RawXXX” or “XxxTyped”). https://gfx-rs.github.io/2019/10/01/update.html
+
+## WebGPU and portability
+
+>One of the goals of WebGPU that differentiates it from the other libraries and APIs is "strong" portability, in a sense that it not only runs on all targeted platforms, but also the performance expectations match. Therefore, if don't see a way to consistently implement a feature on at least 2 or the 3 target platforms, in such a way that it works and using it shows a difference, we don't include it in the core API. Take sub-passes, for example, that, while you can technically implement them on Metal and DX12 by doing separate passes, they only make a difference on Vulkan mobile GPUs today, so there can't be expectation that using sub-passes makes you magically faster. Take buffer capabilities as another example: if we expose all the queries about what is supported and what not, it's easy to write an application that would work on the developer platform but then break on others, because they possibly forgot to query, or simply don't have another code path in place. Finally, things like "multiple queues" are desired for the most part, but we haven't yet figured a plan on how to expose them portably, as in - without race conditions affecting the portability of user programs. https://github.com/nannou-org/nannou/issues/374#issuecomment-533841665
 
 ## Misc
 
