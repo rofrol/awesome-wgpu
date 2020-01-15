@@ -26,6 +26,8 @@ PRs welcome.
   - https://github.com/rust-tutorials/learn-wgpu
 - https://sotrh.github.io/learn-wgpu/
   - https://github.com/sotrh/learn-wgpu
+  - this guide https://vulkano.rs/guide/introduction explains more i.e. swapchain https://vulkano.rs/guide/swapchain-creation
+    - https://github.com/vulkano-rs/vulkano-www
 - old https://github.com/fredlangva/WGPU-Tut
 - https://www.reddit.com/r/rust_gamedev/comments/bcjdl0/learning_wgpurs_coming_from_openwebgl/
 - [3D Game in Rust #2 - Try to run a wgpu-rs tutorial - YouTube](https://www.youtube.com/watch?v=KZTmTbcA-VY)
@@ -183,6 +185,25 @@ About Rendy and wgpu https://community.amethyst.rs/t/skepticism-about-rendy/1221
 - process images on the GPU https://github.com/danielbusaba/Rust-GPU
 - LBM fluid simulation https://github.com/grenlight/fluid-webgpu
 - Safe Wrapper Around the Chromium Embedded Framework https://github.com/anlumo/cef
+
+## GLSL
+
+>Found the problem - I need to become a GLSL shader expert https://www.reddit.com/r/rust_gamedev/comments/be08e2/wgpu_pipeline_question/el40lsl/
+
+- https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules
+- https://www.lunarg.com/faqs/how-vulkan-shaders-written/
+- https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+  - https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.50.pdf
+- https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
+- https://www.reddit.com/r/rust_gamedev/comments/bcjdl0/learning_wgpurs_coming_from_openwebgl/eku9bsr/
+- mandelbrot https://vulkano.rs/guide/mandelbrot
+- https://stackoverflow.com/questions/16631981/what-is-the-difference-between-opengl-and-glsl
+- https://gamedev.stackexchange.com/questions/4234/what-are-the-pros-and-cons-of-hlsl-vs-glsl-vs-cg
+- https://community.khronos.org/t/glsl-and-hlsl-differences/53888/4
+- https://stackoverflow.com/questions/2508818/how-to-debug-a-glsl-shader
+- https://stackoverflow.com/questions/tagged/glsl?tab=Votes
+- https://riptutorial.com/glsl
+- http://nehe.gamedev.net/article/glsl_an_introduction/25007/index.html
 
 ## License
 
