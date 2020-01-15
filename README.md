@@ -147,6 +147,7 @@ PRs welcome.
 - https://github.com/dhardy/kas
   - https://www.reddit.com/r/rust/comments/ebvp4i/kas_gui/
 - https://github.com/redox-os/orbtk
+- bindings for Nuklear (using old `wgpu = "~0.3"`) https://github.com/snuk182/nuklear-backend-wgpurs
 
 ## Rendering
 
