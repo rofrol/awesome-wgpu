@@ -1,6 +1,6 @@
-# Awesome wgpu-rs
+# Awesome wgpu
 
-A curated list of wgpu-rs code and resources. 
+A curated list of wgpu code and resources. 
 
 PRs welcome.
 
