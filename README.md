@@ -7,6 +7,7 @@ PRs welcome.
 ## About wgpu-rs
 
 - https://github.com/gfx-rs/wgpu-rs
+- matrix chat https://matrix.to/#/#wgpu:matrix.org
 - wgpu suports DX11, DX12 and Vulkan on Windows, Vulkan on Linux and Metal on macOS & iOS https://github.com/gfx-rs/wgpu
 - [The rise of wgpu - Gfx-rs nuts and bolts](https://gfx-rs.github.io/2019/03/06/wgpu.html)
   - https://www.reddit.com/r/rust/comments/ay3olj/the_rise_of_wgpurs/
