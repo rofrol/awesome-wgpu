@@ -28,6 +28,8 @@ PRs welcome.
   - https://github.com/sotrh/learn-wgpu
   - this guide https://vulkano.rs/guide/introduction explains more i.e. swapchain https://vulkano.rs/guide/swapchain-creation
     - https://github.com/vulkano-rs/vulkano-www
+  - https://crates.io/crates/winit
+  - https://crates.io/crates/wgpu
 - old https://github.com/fredlangva/WGPU-Tut
 - https://www.reddit.com/r/rust_gamedev/comments/bcjdl0/learning_wgpurs_coming_from_openwebgl/
 - [3D Game in Rust #2 - Try to run a wgpu-rs tutorial - YouTube](https://www.youtube.com/watch?v=KZTmTbcA-VY)
@@ -84,6 +86,7 @@ PRs welcome.
   - via https://github.com/17cupsofcoffee/tetra
 - https://gafferongames.com/post/integration_basics/
 - https://www.reddit.com/r/gamedev/comments/df7dth/i_compiled_a_massive_list_of_yt_channels_about/
+- https://gamedev.stackexchange.com/questions?tab=Votes
 
 ## Physics/Collision
 
