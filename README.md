@@ -189,10 +189,19 @@ About Rendy and wgpu https://community.amethyst.rs/t/skepticism-about-rendy/1221
 - LBM fluid simulation https://github.com/grenlight/fluid-webgpu
 - Safe Wrapper Around the Chromium Embedded Framework https://github.com/anlumo/cef
 
-## GLSL
+## Shading Language
+
+- https://www.reddit.com/r/shaders/
+- https://github.com/topics/shading-language
+- https://github.com/KhronosGroup/Vulkan-Ecosystem
+- books, editors, viewers recommendations https://www.reddit.com/r/gamedev/comments/cis14v/good_starting_points_for_learning_to_write_shaders/
+
+### GLSL
 
 >Found the problem - I need to become a GLSL shader expert https://www.reddit.com/r/rust_gamedev/comments/be08e2/wgpu_pipeline_question/el40lsl/
 
+- https://github.com/radixzz/awesome-glsl
+- https://thebookofshaders.com/
 - https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules
 - https://www.lunarg.com/faqs/how-vulkan-shaders-written/
 - https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
@@ -207,6 +216,42 @@ About Rendy and wgpu https://community.amethyst.rs/t/skepticism-about-rendy/1221
 - https://stackoverflow.com/questions/tagged/glsl?tab=Votes
 - https://riptutorial.com/glsl
 - http://nehe.gamedev.net/article/glsl_an_introduction/25007/index.html
+- https://docs.unity3d.com/2020.1/Documentation/Manual/SL-GLSLShaderPrograms.html
+- https://github.com/libretro/glsl-shaders
+
+### HLSL
+
+>Google and Samsung are developing HLSL compiler for Vulkan, because a large majority of game studios don't want to bother with Vulkan on Android if they cannot port their shaders. https://news.ycombinator.com/item?id=18439910
+
+- https://github.com/KhronosGroup/glslang/wiki/HLSL-FAQ
+  - [Complete HLSL -> SPIR-V translator · Issue #362 · KhronosGroup/glslang](https://github.com/KhronosGroup/glslang/issues/362)
+- Make HLSL a first-class citizen for Vulkan https://www.khronos.org/assets/uploads/developers/library/2019-siggraph/Vulkan-06-DXC-Update_SIGGRAPH_Jul19.pdf
+- https://github.com/microsoft/DirectXShaderCompiler#spir-v-codegen
+- https://github.com/google/shaderc-rs
+- https://www.reddit.com/r/gamedev/comments/cpdtn6/looking_for_ressources_to_learn_hlsl/
+
+### GLSL vs HLSL
+
+- use of raw GLSL is only recommended for testing, or when you know you are only targeting Mac OS X, OpenGL ES mobile devices, or Linux. In all normal cases, Unity will cross-compile Cg/HLSL into optimized GLSL when needed. https://docs.unity3d.com/2020.1/Documentation/Manual/SL-GLSLShaderPrograms.html
+
+>My biggest concerns about using HLSL as the source are:
+> - poor specification, or the lack of it
+> - alien binding model: GLSL can easily specify descriptor sets and bindings, while HLSL was to resort to a parser-specific attribute magic to specify them.
+>https://www.reddit.com/r/rust_gamedev/comments/cgaeuu/graphics_programming_hlsl_vs_glsl/eukphqa/
+
+
+### WSL (formerly WHLSL)
+
+>There are many Web developers using GLSL today in WebGL, so a potential browser accepting a different high level language, like HLSL, wouldn’t suit their needs well. In addition, a high-level language such as HLSL can’t be executed faithfully on every platform and graphics API that WebGPU is designed to execute on. https://webkit.org/blog/9528/webgpu-and-wsl-in-safari/
+>
+>So, we decided to make the language more simple, low-level, and fast to compile, and renamed the language to Web Shading Language to match this pursuit.
+
+- [WHLSL: Web High Level Shading Language | Hacker News](https://news.ycombinator.com/item?id=18436961)
+- https://github.com/gpuweb/WSL
+
+### CG
+
+>CG has been discontinued, and is no longer supported or actively worked on by Nvidia. Nvidia recommends that all users switch to a combination of GLSL and HLSL, or a newer library such as nvFX (on github). This is because it was too difficult to maintain feature-compatibility between GLSL and HLSL. https://gamedev.stackexchange.com/questions/4234/what-are-the-pros-and-cons-of-hlsl-vs-glsl-vs-cg/4333#4333
 
 ## License
 
