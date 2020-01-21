@@ -4,7 +4,7 @@ A curated list of wgpu code and resources.
 
 PRs welcome.
 
-## About wgpu-rs
+## About wgpu
 
 - https://github.com/gfx-rs/wgpu-rs
 - matrix chat https://matrix.to/#/#wgpu:matrix.org
@@ -15,10 +15,20 @@ PRs welcome.
 - current status of WebGPU in web browsers https://webgpu.io
   - https://www.reddit.com/r/rust_gamedev/comments/e9nh8w/current_status_of_webgpu_wasm_and_web_games_in/
 - https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019
-- wgpu-rs and WebGL https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcipapq/
-- wgpu-rs and OpenGL https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcj2hyq/
+- wgpu and WebGL https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcipapq/
+- wgpu and OpenGL https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcj2hyq/
 - Geometry shaders are effectively a dead end https://www.reddit.com/r/rust/comments/dou249/will_wgpu_support_shader_types_that_are_not/f5r1a6k/
 - https://www.reddit.com/r/rust_gamedev/comments/b01zy9/please_help_me_understand_the_gfxrs_architecture/
+
+## Ecosystem
+
+1. individual API libraries like ash, d3d12-rs, metal-rs - for the lowest hard-core level available to Rust
+2. gfx-hal for lowest portable level
+3. Rendy for helping to solve the rough corners of gfx-hal
+4. wgpu-rs for the lowest safe level
+5. Engines like ggez or Amethyst for the highest level
+
+https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_manage_memory_and/
 
 ## Learn
 
@@ -252,6 +262,10 @@ About Rendy and wgpu https://community.amethyst.rs/t/skepticism-about-rendy/1221
 ### CG
 
 >CG has been discontinued, and is no longer supported or actively worked on by Nvidia. Nvidia recommends that all users switch to a combination of GLSL and HLSL, or a newer library such as nvFX (on github). This is because it was too difficult to maintain feature-compatibility between GLSL and HLSL. https://gamedev.stackexchange.com/questions/4234/what-are-the-pros-and-cons-of-hlsl-vs-glsl-vs-cg/4333#4333
+
+## OpenGL
+
+- OpenGL is never going to magically become an API that works everywhere portably https://www.reddit.com/r/rust/comments/eh7wkx/the_state_of_ggez_2020/fcj2hyq/
 
 ## License
 
