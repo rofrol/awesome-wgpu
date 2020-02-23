@@ -124,6 +124,7 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 
 - pixel editor https://github.com/cloudhead/rx
 - https://github.com/Yatekii/sailor
+- Realtime 3D N-Body-Simulation: https://git.koesters.xyz/timo/nbodysim
 - https://github.com/manuranga/igni
 - https://github.com/stevebob/rip
 - https://github.com/chiptunecafe/rawrscope
@@ -149,7 +150,6 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 
 ### Older
 
-- https://github.com/timokoesters/wgpu-project
 - https://github.com/WaDelma/hiekkapeli
 - https://github.com/krauslabs/wgpu-vg-toy
 - https://github.com/fredlangva/wgpu_one
