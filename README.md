@@ -135,6 +135,7 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 - https://github.com/CryZe/livesplit-one-desktop
 - HDR image viewer https://github.com/mandeep/viewimg
   - Radiance HDR images (and later OpenEXR)
+- https://github.com/KongouDesu/BackupGUI
 
 ## Examples
 
