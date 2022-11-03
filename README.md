@@ -36,6 +36,7 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
   - https://github.com/rust-tutorials/learn-wgpu
 - https://sotrh.github.io/learn-wgpu/
   - https://github.com/sotrh/learn-wgpu
+  - https://jinleili.github.io/learn-wgpu-zh chinese version (中文版)
   - this guide https://vulkano.rs/guide/introduction explains more i.e. swapchain https://vulkano.rs/guide/swapchain-creation
     - https://github.com/vulkano-rs/vulkano-www
   - https://crates.io/crates/winit
