@@ -32,12 +32,9 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 
 ## Learn
 
-- https://rust-tutorials.github.io/learn-wgpu
-  - https://github.com/rust-tutorials/learn-wgpu
 - https://sotrh.github.io/learn-wgpu/
   - https://github.com/sotrh/learn-wgpu
-  - this guide https://vulkano.rs/guide/introduction explains more i.e. swapchain https://vulkano.rs/guide/swapchain-creation
-    - https://github.com/vulkano-rs/vulkano-www
+  - https://github.com/vulkano-rs/vulkano-book
   - https://crates.io/crates/winit
   - https://crates.io/crates/wgpu
 - old https://github.com/fredlangva/WGPU-Tut
@@ -53,15 +50,11 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
   - https://github.com/JamesPatrickGill/mos-6502-rusted
 - RTS game/engine https://github.com/Ruddle/oxidator
 - https://github.com/maroider/overlay
-- https://github.com/Noxime/vg-test
 - https://github.com/robmikh/goldsrc-asset-viewer
 - https://github.com/vulpesgames/mist-game-engine
 - https://github.com/chutchinson/chip-8
 - https://github.com/Napokue/chip-8
 - https://github.com/deadcore/playstation-emulator
-- https://github.com/catt-io/romy
-- https://github.com/lavignes/dth
-- 2D rendering library https://github.com/tonis2/felin
 - 2D graphics library https://github.com/cloudhead/rgx used by https://github.com/cloudhead/rx
 - https://github.com/StarlitGhost/GBOxide
 - A brawl file parser for Super Smash Bros. Brawl https://github.com/rukai/brawllib_rs
@@ -104,8 +97,6 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 
 - http://arewegameyet.com/categories/physics/
 - https://github.com/kvark/vange-rs/blob/master/bin/road/physics/mod.rs
-- https://github.com/kvark/vange-rs/blob/master/src/render/collision.rs
-- https://github.com/rukai/canon_collision/blob/master/canon_collision/src/collision.rs
 
 ## Games
 
@@ -119,8 +110,6 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 - https://github.com/terrence2/openfa
 - https://github.com/derekdreery/rogue
 - https://github.com/Limvot/vulkemon
-- https://github.com/glalonde/spout/tree/master/rust
-- https://github.com/Limvot/vulkemon
 
 ## Applications
 
@@ -131,7 +120,6 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 - https://github.com/stevebob/rip
 - https://github.com/chiptunecafe/rawrscope
 - https://github.com/cbrewster/brewcode
-- https://github.com/Elyhaka/Swaynimated
 - https://github.com/CryZe/livesplit-one-desktop
 - HDR image viewer https://github.com/mandeep/viewimg
   - Radiance HDR images (and later OpenEXR)
@@ -144,21 +132,15 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 - https://github.com/rohit507/rust-gfx-experiments
 - https://github.com/stevebob/hello-wgpu
 - https://github.com/vitvakatu/cubes
-- https://github.com/laopo001/wgpu-learn
 - https://github.com/xayon40-12/wgpu_ray
-- https://github.com/maroider/wgpu_playground
 - https://github.com/terrence2/stampede
-- https://github.com/Lonsdaleiter/RustTest
-- iOS and Metal https://github.com/grenlight/idroid_demo
 
 ### Older
 
 - https://github.com/WaDelma/hiekkapeli
-- https://github.com/krauslabs/wgpu-vg-toy
 - https://github.com/fredlangva/wgpu_one
   - https://www.reddit.com/r/rust/comments/c9wsot/i_need_some_help_with_wgpu/
 - https://github.com/WaDelma/hiekkapeli
-- https://github.com/menuan/lack
 
 ## UI
 
