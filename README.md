@@ -124,6 +124,8 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 
 ## Applications
 
+- Simple cross-platform AI protocols & components https://github.com/blueraai/universal-intelligence
+  - Introduction → [How to make a simple AI application](https://medium.com/@victor_bluera/how-to-make-a-simple-ai-application-faec90499359)
 - pixel editor https://github.com/cloudhead/rx
 - https://github.com/Yatekii/sailor
 - Realtime 3D N-Body-Simulation: https://git.koesters.xyz/timo/nbodysim
