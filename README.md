@@ -161,6 +161,7 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 - https://github.com/menuan/lack
 
 ## UI
+- multi-backend UI framework (wgpu, vello, tiny-skia, TUI) with desktop/web/mobile https://github.com/ZENG3LD/uzor
 
 - https://github.com/hecrj/iced
 - https://github.com/dhardy/kas
