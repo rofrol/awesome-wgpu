@@ -162,6 +162,7 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 
 ## UI
 
+- [liquid-glass](https://github.com/ziuus/liquid-glass) - Physical optical glassmorphism UI engine & floating widgets in Rust (WGPU + WGSL)
 - https://github.com/hecrj/iced
 - https://github.com/dhardy/kas
   - https://www.reddit.com/r/rust/comments/ebvp4i/kas_gui/
