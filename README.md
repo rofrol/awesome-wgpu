@@ -136,6 +136,7 @@ https://www.reddit.com/r/rust_gamedev/comments/bv7w2f/wgpurs_now_uses_rendy_to_m
 - HDR image viewer https://github.com/mandeep/viewimg
   - Radiance HDR images (and later OpenEXR)
 - https://github.com/KongouDesu/BackupGUI
+- NeuralCanvas, pen sketch-to-wireframe canvas for Wayland https://github.com/nodaysidle/neural-canvas
 
 ## Examples
 
